@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v2
       
       - name: resharper
-        uses: glassechidna/resharper-action@master
+        uses: clouxart/resharper-action@master
         with:
           solution: HelloWorld.sln
 ```
